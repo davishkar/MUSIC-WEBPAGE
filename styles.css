@@ -1,0 +1,674 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+.header-right a:hover {
+    color: #e2df29;
+    text-decoration: underline;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.search-form input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-form button {
+    background-color: #ece2e2;
+    color: rgb(15, 15, 15);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+/* Bottom navbar styles */
+.bottom-navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.bottom-navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+
+/* Featured section styles */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #ddd;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.featured-item {
+    text-align: center;
+}
+
+.featured-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.featured-item h2 {
+    margin-top: 10px;
+}
+
+.featured-item p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.featured-item .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured-item .btn:hover {
+    background-color: #e2df29;
+    /* Add your desired button hover color */
+}
+
+/* Music section styles */
+.music {
+    padding: 40px 0;
+    background-color: #f5f5f5;
+    background-image: url('image/mb.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* Set text color for better visibility on the background image */
+    text-align: center;
+    padding: 100px 0;
+    /* Adjust the padding as needed */
+}
+
+.music-categories {
+    text-align: center;
+}
+
+.music-categories h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    /* Add your desired text color */
+}
+
+.music-categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.music-categories li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.music-categories a {
+    text-decoration: none;
+    color: #ffffff;
+    /* Add your desired link color */
+    font-weight: bold;
+}
+
+.featured-artists {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.artist {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.artist img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.artist h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #fff;
+    /* Add your desired text color */
+}
+
+.artist p {
+    font-size: 14px;
+    color: #fff;
+    /* Add your desired text color */
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    /* Add your desired button color */
+    color: #fff;
+    /* Add your desired button text color */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e2df29;
+    /* Add your desired button hover color */
+}
+
+/* Music section styles */
+.music {
+    text-align: center;
+    padding: 50px;
+    background-color: #eee;
+    /* Change to your desired background color */
+}
+
+.music-categories h2 {
+    margin-bottom: 20px;
+}
+
+.music-categories ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.music-categories li {
+    margin: 0 20px;
+}
+
+.featured-artists {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.artist {
+    text-align: center;
+}
+
+.artist img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.artist h3 {
+    margin-top: 10px;
+}
+
+/* Albums section styles */
+.albums {
+    text-align: center;
+    padding: 50px;
+    background-color: #ddd;
+    /* Change to your desired background color */
+}
+
+.albums h2 {
+    margin-bottom: 20px;
+}
+
+.album {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.album img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.album h3 {
+    margin-top: 10px;
+}
+
+.album p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.album .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.album .btn:hover {
+    background-color: #e2df29;
+    /* Add your desired button hover color */
+}
+
+/* Playlists section styles */
+.playlists {
+    text-align: center;
+    padding: 50px;
+    background-color: #eee;
+    /* Change to your desired background color */
+}
+
+.playlists h2 {
+    margin-bottom: 20px;
+}
+
+.playlist {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.playlist img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.playlist h3 {
+    margin-top: 10px;
+}
+
+.playlist p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.playlist .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.playlist .btn:hover {
+    background-color: #e2df29;
+    /* Add your desired button hover color */
+}
+
+/* Deal section styles */
+.deal {
+    text-align: center;
+    padding: 50px;
+    background-color: #ddd;
+    /* Change to your desired background color */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deal h3 {
+    margin-bottom: 10px;
+}
+
+.deal h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.deal p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.deal .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.deal .btn:hover {
+    background-color: #4d0060;
+    /* Add your desired button hover color */
+}
+
+.deal img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Events section styles */
+.events {
+    text-align: center;
+    padding: 50px;
+    background-color: #eee;
+    /* Change to your desired background color */
+}
+
+.events h2 {
+    margin-bottom: 20px;
+}
+
+.event {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.event img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.event h3 {
+    margin-top: 10px;
+}
+
+.event p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.event .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.event .btn:hover {
+    background-color: #ce214c;
+    /* Add your desired button hover color */
+}
+
+/* Blog section styles */
+.blog {
+    text-align: center;
+    padding: 50px;
+    background-color: #ddd;
+    /* Change to your desired background color */
+}
+
+.blog h2 {
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.blog-post h3 {
+    margin-top: 10px;
+}
+
+.blog-post p {
+    color: #666;
+    margin-top: 5px;
+}
+
+.blog-post .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.blog-post .btn:hover {
+    background-color: #68008f;
+    /* Add your desired button hover color */
+}
+
+/* Feedback section styles */
+.feedback {
+    text-align: center;
+    padding: 50px;
+    background-color: #eee;
+    background-image: url('image/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* Set text color for better visibility on the background image */
+    text-align: center;
+    padding: 100px 0;
+    /* Adjust the padding as needed */
+}
+
+.feedback h3 {
+    margin-bottom: 20px;
+}
+
+.feedback form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feedback textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.feedback .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer section styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.quick-links,
+.contact-info,
+.social-media,
+.copyright {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.quick-links h3,
+.contact-info h3,
+.social-media h3,
+.copyright p {
+    margin-bottom: 10px;
+}
+
+.quick-links ul,
+.contact-info ul,
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li,
+.contact-info li,
+.social-media li {
+    margin: 5px 0;
+}
+
+.quick-links a,
+.contact-info a,
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.quick-links a:hover,
+.contact-info a:hover,
+.social-media a:hover {
+
+    color: #e2df29;
+    text-decoration: underline;
+}
+
+.social-media img {
+    max-width: 30px;
+    margin-right: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .header-1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .search-form {
+        margin-top: 10px;
+    }
+
+    .icons {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    .bottom-navbar {
+        flex-direction: row;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .bottom-navbar a {
+        flex: 1;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .hero,
+    .music,
+    .albums,
+    .playlists,
+    .deal,
+    .events,
+    .blog,
+    .feedback {
+        padding: 30px;
+    }
+
+    .music-categories,
+    .featured-artists,
+    .albums,
+    .playlists,
+    .events,
+    .blog {
+        text-align: left;
+    }
+}
